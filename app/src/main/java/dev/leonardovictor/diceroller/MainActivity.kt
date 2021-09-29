@@ -3,7 +3,6 @@ package dev.leonardovictor.diceroller
 import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageView
-import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 /**
  * This activity allows the user to roll a dice and view the result
@@ -43,7 +42,7 @@ class MainActivity : AppCompatActivity() {
             5 -> R.drawable.dice_5
             else -> R.drawable.dice_6
         }
-        
+
         // Update the ImageView with the correct drawable resource ID
         diceImage.setImageResource(drawableResource)
 
